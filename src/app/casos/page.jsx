@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import {
     ArrowRight, TrendingUp, Activity, CheckCircle2,
     Quote, BarChart3, Users, Calendar
@@ -105,15 +106,14 @@ const CaseStudyPage = () => {
                         </div>
                     </div>
 
-                    {/* Visual (Mockup) */}
                     <div className="relative h-[600px] bg-[#F0F2F9] rounded-[3rem] overflow-hidden border border-[#374e86]/5 group">
-                        {/* Aquí iría una captura de la web del Dr. Pedro o una foto genérica de doctor */}
-                        <img
+                        <Image
                             src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=2664&auto=format&fit=crop"
                             alt="Dr Pedro Resultados"
-                            className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                            fill
+                            className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                            sizes="(max-width: 768px) 100vw, 50vw" // Descarga inteligente
                         />
-
                         {/* Overlay Gradiente */}
                         <div className="absolute inset-0 bg-gradient-to-t from-[#374e86] via-transparent to-transparent opacity-60" />
 
@@ -144,9 +144,20 @@ const CaseStudyPage = () => {
                     </h3>
 
                     <div className="flex items-center justify-center gap-4">
-                        <div className="w-16 h-16 rounded-full bg-[#374e86] overflow-hidden">
-                            {/* Placeholder foto Dr */}
-                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=1000&auto=format&fit=crop" alt="Dr Pedro" className="w-full h-full object-cover" />
+                        <div className="flex items-center justify-center gap-4">
+                            <div className="relative w-16 h-16 rounded-full bg-[#374e86] overflow-hidden border border-[#374e86]/10">
+                                <Image
+                                    src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=1000&auto=format&fit=crop"
+                                    alt="Dr Pedro"
+                                    fill
+                                    className="object-cover"
+                                    sizes="64px" // Solo descarga una versión pequeña
+                                />
+                            </div>
+                            <div className="text-left">
+                                <p className="font-bold text-[#374e86] font-sans-body">Dr. Pedro</p>
+                                <p className="text-sm text-[#374e86]/50 uppercase tracking-widest font-bold">Cirujano Especialista</p>
+                            </div>
                         </div>
                         <div className="text-left">
                             <p className="font-bold text-[#374e86] font-sans-body">Dr. Pedro</p>

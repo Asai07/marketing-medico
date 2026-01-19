@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { ArrowRight, CheckCircle2, XCircle, Brain, Code, LineChart, MapPin } from 'lucide-react';
 
 // --- 1. HERO ---
@@ -113,10 +114,12 @@ const OriginStory = () => {
                         transition={{ delay: 0.3, duration: 0.8 }}
                         className="relative z-10 w-[300px] h-[400px] lg:w-[350px] lg:h-[450px] rounded-[2rem] overflow-hidden shadow-2xl shadow-[#374e86]/20 border-[6px] border-white rotate-3"
                     >
-                        <img
+                        <Image
                             src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"
                             alt="Equipo MADA Monterrey"
-                            className="w-full h-full object-cover scale-105 hover:scale-110 transition-transform duration-700"
+                            fill
+                            sizes="(max-width: 768px) 100vw, 400px"
+                            className="object-cover scale-105 hover:scale-110 transition-transform duration-700"
                         />
                     </motion.div>
                 </div>
