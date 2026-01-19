@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence, useMotionValue, useSpring } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
+import Image from 'next/image';
 
 const projects = [
     {
@@ -106,16 +107,22 @@ const SelectedCases = () => {
                         style={{ x, y }}
                         className="fixed top-0 left-0 w-[400px] h-[300px] rounded-2xl overflow-hidden pointer-events-none z-50 hidden lg:block shadow-2xl shadow-[#374e86]/20"
                     >
-                        <motion.img
+                        <motion.div
                             key={projects[activeProject].id}
-                            src={projects[activeProject].img}
-                            alt="Project Preview"
                             initial={{ scale: 1.2, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
                             exit={{ scale: 1.2, opacity: 0 }}
                             transition={{ duration: 0.3 }}
-                            className="w-full h-full object-cover"
-                        />
+                            className="relative w-full h-full" // Necesario para que fill funcione
+                        >
+                            <Image
+                                src={projects[activeProject].img}
+                                alt="Project Preview"
+                                fill
+                                className="object-cover"
+                                sizes="400px"
+                            />
+                        </motion.div>
 
                         {/* CAMBIO: Overlay violeta/azul suave */}
                         <div className="absolute inset-0 bg-[#374e86]/20 mix-blend-multiply"></div>

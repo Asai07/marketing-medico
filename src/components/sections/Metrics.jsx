@@ -2,6 +2,7 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Play, Users, ArrowUpRight, Activity } from 'lucide-react';
+import Image from 'next/image';
 
 const Metrics = () => {
     const containerRef = useRef(null);
@@ -115,10 +116,12 @@ const Metrics = () => {
                         className="md:col-span-4 md:row-span-2 bg-[#374e86] rounded-[2.5rem] relative overflow-hidden group cursor-pointer shadow-2xl shadow-[#374e86]/20"
                     >
                         <div className="absolute inset-0 bg-[#bcb5ff] mix-blend-color opacity-0 group-hover:opacity-20 transition-opacity duration-500 z-20"></div>
-                        <img
+                        <Image
                             src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2068&auto=format&fit=crop"
                             alt="Producción Contenido"
-                            className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-1000"
+                            fill
+                            className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-1000"
+                            sizes="(max-width: 768px) 100vw, 33vw"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-[#374e86]/90 via-[#374e86]/20 to-transparent z-10" />
 

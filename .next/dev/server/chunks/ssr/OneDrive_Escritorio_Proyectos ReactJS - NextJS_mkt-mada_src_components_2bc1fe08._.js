@@ -12,7 +12,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Pr
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/framer-motion/dist/es/value/use-scroll.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/framer-motion/dist/es/value/use-transform.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-ssr] (ecmascript) <export default as ArrowRight>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/next/image.js [app-ssr] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -65,7 +67,7 @@ const LivingBlobs = ()=>{
                 }
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                lineNumber: 27,
+                lineNumber: 28,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -74,7 +76,7 @@ const LivingBlobs = ()=>{
                 className: "absolute top-[10%] left-[20%] w-[600px] h-[600px] rounded-full bg-[#bcb5ff]/40 blur-[100px] mix-blend-multiply"
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                lineNumber: 30,
+                lineNumber: 31,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -83,7 +85,7 @@ const LivingBlobs = ()=>{
                 className: "absolute top-[40%] right-[10%] w-[500px] h-[500px] rounded-full bg-[#95b2ed]/40 blur-[90px] mix-blend-multiply"
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                lineNumber: 37,
+                lineNumber: 38,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -92,7 +94,7 @@ const LivingBlobs = ()=>{
                 className: "absolute bottom-[10%] left-[30%] w-[400px] h-[400px] rounded-full bg-[#e7f1ad]/50 blur-[80px] mix-blend-multiply"
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                lineNumber: 44,
+                lineNumber: 45,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -124,13 +126,13 @@ const LivingBlobs = ()=>{
                 className: "absolute top-[30%] left-[50%] w-[300px] h-[300px] rounded-full bg-[#374e86]/10 blur-[60px] mix-blend-multiply"
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                lineNumber: 51,
+                lineNumber: 52,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-        lineNumber: 25,
+        lineNumber: 26,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -167,7 +169,7 @@ const Hero = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LivingBlobs, {}, void 0, false, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                lineNumber: 77,
+                lineNumber: 78,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -194,7 +196,7 @@ const Hero = ()=>{
                                             className: "h-[1px] w-12 bg-[#95b2ed]"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                            lineNumber: 84,
+                                            lineNumber: 85,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -202,13 +204,13 @@ const Hero = ()=>{
                                             children: "Marketing para médicos"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                            lineNumber: 85,
+                                            lineNumber: 86,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                    lineNumber: 83,
+                                    lineNumber: 84,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h1, {
@@ -218,7 +220,7 @@ const Hero = ()=>{
                                         "Tu consulta merece ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                            lineNumber: 91,
+                                            lineNumber: 92,
                                             columnNumber: 48
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -251,25 +253,25 @@ const Hero = ()=>{
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                                        lineNumber: 95,
+                                                        lineNumber: 96,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                                    lineNumber: 94,
+                                                    lineNumber: 95,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                            lineNumber: 92,
+                                            lineNumber: 93,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         " y pacientes."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                    lineNumber: 90,
+                                    lineNumber: 91,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -278,7 +280,7 @@ const Hero = ()=>{
                                     children: "Implementamos sistemas de atracción que llenan tu agenda con pacientes calificados. Deja de perseguir prospectos, haz que ellos te encuentren a ti."
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                    lineNumber: 106,
+                                    lineNumber: 107,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -293,13 +295,13 @@ const Hero = ()=>{
                                                     className: "w-4 h-4 group-hover:translate-x-1 transition-transform"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                                    lineNumber: 113,
+                                                    lineNumber: 114,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                            lineNumber: 111,
+                                            lineNumber: 112,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -307,24 +309,24 @@ const Hero = ()=>{
                                             children: "Ver Casos de Éxito"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                            lineNumber: 115,
+                                            lineNumber: 116,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                    lineNumber: 110,
+                                    lineNumber: 111,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                            lineNumber: 81,
+                            lineNumber: 82,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                        lineNumber: 80,
+                        lineNumber: 81,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -334,7 +336,7 @@ const Hero = ()=>{
                                 className: "absolute top-10 -right-10 w-full h-full border border-[#374e86]/10 rounded-t-[10rem] rounded-b-[2rem] z-0"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                lineNumber: 123,
+                                lineNumber: 124,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -343,26 +345,29 @@ const Hero = ()=>{
                                 },
                                 className: "relative w-full h-full rounded-t-[10rem] rounded-b-[2rem] overflow-hidden shadow-2xl shadow-[#bcb5ff]/20 z-10",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2068&auto=format&fit=crop",
                                         alt: "Doctora Estética",
-                                        className: "w-full h-full object-cover"
+                                        fill: true,
+                                        priority: true,
+                                        className: "object-cover",
+                                        sizes: "(max-width: 768px) 100vw, 50vw"
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                        lineNumber: 129,
+                                        lineNumber: 130,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute inset-0 bg-[#bcb5ff]/10 mix-blend-multiply"
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                        lineNumber: 134,
+                                        lineNumber: 138,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                lineNumber: 125,
+                                lineNumber: 126,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -387,7 +392,7 @@ const Hero = ()=>{
                                                 className: "w-2 h-2 rounded-full bg-[#e7f1ad] animate-pulse"
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                                lineNumber: 144,
+                                                lineNumber: 148,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -395,13 +400,13 @@ const Hero = ()=>{
                                                 children: "Agenda Llena"
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                                lineNumber: 145,
+                                                lineNumber: 149,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                        lineNumber: 143,
+                                        lineNumber: 147,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -409,7 +414,7 @@ const Hero = ()=>{
                                         children: "+45%"
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                        lineNumber: 147,
+                                        lineNumber: 151,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -417,31 +422,31 @@ const Hero = ()=>{
                                         children: "Citas calificadas primer mes."
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                        lineNumber: 148,
+                                        lineNumber: 152,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                                lineNumber: 137,
+                                lineNumber: 141,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                        lineNumber: 122,
+                        lineNumber: 123,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-                lineNumber: 79,
+                lineNumber: 80,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Hero.jsx",
-        lineNumber: 74,
+        lineNumber: 75,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -920,7 +925,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Pr
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/lucide-react/dist/esm/icons/users.js [app-ssr] (ecmascript) <export default as Users>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/lucide-react/dist/esm/icons/arrow-up-right.js [app-ssr] (ecmascript) <export default as ArrowUpRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$activity$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Activity$3e$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/lucide-react/dist/esm/icons/activity.js [app-ssr] (ecmascript) <export default as Activity>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/next/image.js [app-ssr] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -953,7 +960,7 @@ const Metrics = ()=>{
                 }
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                lineNumber: 19,
+                lineNumber: 20,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -991,7 +998,7 @@ const Metrics = ()=>{
                                                 className: "w-3 h-3 rounded-full bg-[#e7f1ad] animate-pulse shadow-lg shadow-[#e7f1ad]/50"
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                lineNumber: 35,
+                                                lineNumber: 36,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -999,13 +1006,13 @@ const Metrics = ()=>{
                                                 children: "Data Auditada Q4"
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                lineNumber: 36,
+                                                lineNumber: 37,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                        lineNumber: 33,
+                                        lineNumber: 34,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1014,7 +1021,7 @@ const Metrics = ()=>{
                                             "IMPACTO ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                lineNumber: 39,
+                                                lineNumber: 40,
                                                 columnNumber: 37
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1022,19 +1029,19 @@ const Metrics = ()=>{
                                                 children: "CLÍNICO."
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                lineNumber: 41,
+                                                lineNumber: 42,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                        lineNumber: 38,
+                                        lineNumber: 39,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                lineNumber: 27,
+                                lineNumber: 28,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1051,13 +1058,13 @@ const Metrics = ()=>{
                                 children: 'Transformamos "likes" en pacientes reales. Métricas de crecimiento validadas en consultorios privados.'
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                lineNumber: 45,
+                                lineNumber: 46,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                        lineNumber: 26,
+                        lineNumber: 27,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1096,7 +1103,7 @@ const Metrics = ()=>{
                                                                             className: "w-4 h-4 text-[#bcb5ff]"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                                            lineNumber: 71,
+                                                                            lineNumber: 72,
                                                                             columnNumber: 45
                                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1104,13 +1111,13 @@ const Metrics = ()=>{
                                                                             children: "Retorno de Inversión"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                                            lineNumber: 72,
+                                                                            lineNumber: 73,
                                                                             columnNumber: 45
                                                                         }, ("TURBOPACK compile-time value", void 0))
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                                    lineNumber: 70,
+                                                                    lineNumber: 71,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1118,13 +1125,13 @@ const Metrics = ()=>{
                                                                     children: "4.8x"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                                    lineNumber: 74,
+                                                                    lineNumber: 75,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                            lineNumber: 69,
+                                                            lineNumber: 70,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1132,13 +1139,13 @@ const Metrics = ()=>{
                                                             children: "+12% vs Q3"
                                                         }, void 0, false, {
                                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                            lineNumber: 76,
+                                                            lineNumber: 77,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                    lineNumber: 68,
+                                                    lineNumber: 69,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1146,18 +1153,18 @@ const Metrics = ()=>{
                                                     children: "Por cada dólar invertido en publicidad, nuestros doctores generan casi 5 dólares en consultas facturadas."
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                    lineNumber: 80,
+                                                    lineNumber: 81,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                            lineNumber: 67,
+                                            lineNumber: 68,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                        lineNumber: 66,
+                                        lineNumber: 67,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1185,7 +1192,7 @@ const Metrics = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                    lineNumber: 89,
+                                                    lineNumber: 90,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].path, {
@@ -1208,7 +1215,7 @@ const Metrics = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                    lineNumber: 94,
+                                                    lineNumber: 95,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("linearGradient", {
@@ -1224,7 +1231,7 @@ const Metrics = ()=>{
                                                             stopOpacity: "0.2"
                                                         }, void 0, false, {
                                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                            lineNumber: 100,
+                                                            lineNumber: 101,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
@@ -1233,13 +1240,13 @@ const Metrics = ()=>{
                                                             stopOpacity: "0"
                                                         }, void 0, false, {
                                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                            lineNumber: 101,
+                                                            lineNumber: 102,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 100,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].path, {
@@ -1257,24 +1264,24 @@ const Metrics = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                    lineNumber: 103,
+                                                    lineNumber: 104,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                            lineNumber: 88,
+                                            lineNumber: 89,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                        lineNumber: 87,
+                                        lineNumber: 88,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                lineNumber: 59,
+                                lineNumber: 60,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1287,23 +1294,25 @@ const Metrics = ()=>{
                                         className: "absolute inset-0 bg-[#bcb5ff] mix-blend-color opacity-0 group-hover:opacity-20 transition-opacity duration-500 z-20"
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                        lineNumber: 117,
+                                        lineNumber: 118,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2068&auto=format&fit=crop",
                                         alt: "Producción Contenido",
-                                        className: "absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-1000"
+                                        fill: true,
+                                        className: "object-cover opacity-80 group-hover:scale-105 transition-transform duration-1000",
+                                        sizes: "(max-width: 768px) 100vw, 33vw"
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                        lineNumber: 118,
+                                        lineNumber: 119,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute inset-0 bg-gradient-to-t from-[#374e86]/90 via-[#374e86]/20 to-transparent z-10"
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                        lineNumber: 123,
+                                        lineNumber: 126,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1316,12 +1325,12 @@ const Metrics = ()=>{
                                                     size: 20
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 130,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                lineNumber: 126,
+                                                lineNumber: 129,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1330,21 +1339,21 @@ const Metrics = ()=>{
                                                     "Estética ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                        lineNumber: 131,
+                                                        lineNumber: 134,
                                                         columnNumber: 42
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     "Visual"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                lineNumber: 130,
+                                                lineNumber: 133,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "h-[1px] w-full bg-white/20 my-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                lineNumber: 134,
+                                                lineNumber: 137,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1352,19 +1361,19 @@ const Metrics = ()=>{
                                                 children: "Elevamos la percepción de tu clínica con producción audiovisual de alta gama."
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                lineNumber: 135,
+                                                lineNumber: 138,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                        lineNumber: 125,
+                                        lineNumber: 128,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                lineNumber: 113,
+                                lineNumber: 114,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1385,7 +1394,7 @@ const Metrics = ()=>{
                                         className: "absolute -right-10 -top-10 w-40 h-40 bg-[#e7f1ad]/40 rounded-full blur-3xl group-hover:scale-150 transition-transform duration-700"
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                        lineNumber: 149,
+                                        lineNumber: 152,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1397,25 +1406,25 @@ const Metrics = ()=>{
                                                     className: "w-5 h-5 text-[#374e86]"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                    lineNumber: 152,
+                                                    lineNumber: 155,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                lineNumber: 151,
+                                                lineNumber: 154,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__["ArrowUpRight"], {
                                                 className: "text-[#374e86]/80"
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                lineNumber: 154,
+                                                lineNumber: 157,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                        lineNumber: 150,
+                                        lineNumber: 153,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1426,7 +1435,7 @@ const Metrics = ()=>{
                                                 children: "+85"
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                lineNumber: 157,
+                                                lineNumber: 160,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1434,19 +1443,19 @@ const Metrics = ()=>{
                                                 children: "Pacientes nuevos / mes"
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                lineNumber: 160,
+                                                lineNumber: 163,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                        lineNumber: 156,
+                                        lineNumber: 159,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                lineNumber: 142,
+                                lineNumber: 145,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1467,7 +1476,7 @@ const Metrics = ()=>{
                                         className: "absolute inset-0 bg-[#F8F9FF] opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                        lineNumber: 173,
+                                        lineNumber: 176,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1489,7 +1498,7 @@ const Metrics = ()=>{
                                                                 fill: "none"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                                lineNumber: 177,
+                                                                lineNumber: 180,
                                                                 columnNumber: 37
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].circle, {
@@ -1514,13 +1523,13 @@ const Metrics = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                                lineNumber: 178,
+                                                                lineNumber: 181,
                                                                 columnNumber: 37
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                        lineNumber: 176,
+                                                        lineNumber: 179,
                                                         columnNumber: 33
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1528,13 +1537,13 @@ const Metrics = ()=>{
                                                         children: "92%"
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                        lineNumber: 186,
+                                                        lineNumber: 189,
                                                         columnNumber: 33
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                lineNumber: 175,
+                                                lineNumber: 178,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1542,37 +1551,37 @@ const Metrics = ()=>{
                                                 children: "Tasa de Asistencia"
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                                lineNumber: 188,
+                                                lineNumber: 191,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                        lineNumber: 174,
+                                        lineNumber: 177,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                                lineNumber: 167,
+                                lineNumber: 170,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                        lineNumber: 56,
+                        lineNumber: 57,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-                lineNumber: 23,
+                lineNumber: 24,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Metrics.jsx",
-        lineNumber: 16,
+        lineNumber: 17,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -1589,7 +1598,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Pr
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/next/image.js [app-ssr] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -1655,18 +1666,20 @@ const Process = ()=>{
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "relative w-full h-[280px] md:h-[320px] overflow-hidden rounded-2xl bg-[#F8F9FF] shadow-lg shadow-[#374e86]/5 mb-8",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: steps[activeStep].img,
                                         alt: steps[activeStep].title,
-                                        className: "w-full h-full object-cover"
+                                        fill: true,
+                                        className: "object-cover",
+                                        sizes: "(max-width: 768px) 100vw, 600px"
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                        lineNumber: 56,
+                                        lineNumber: 57,
                                         columnNumber: 33
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                    lineNumber: 55,
+                                    lineNumber: 56,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1680,7 +1693,7 @@ const Process = ()=>{
                                                     children: steps[activeStep].id
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                                    lineNumber: 66,
+                                                    lineNumber: 69,
                                                     columnNumber: 37
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1688,13 +1701,13 @@ const Process = ()=>{
                                                     children: steps[activeStep].title
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                                    lineNumber: 69,
+                                                    lineNumber: 72,
                                                     columnNumber: 37
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                            lineNumber: 64,
+                                            lineNumber: 67,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1702,29 +1715,29 @@ const Process = ()=>{
                                             children: steps[activeStep].desc
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                            lineNumber: 73,
+                                            lineNumber: 76,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                    lineNumber: 63,
+                                    lineNumber: 66,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, activeStep, true, {
                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                            lineNumber: 47,
+                            lineNumber: 48,
                             columnNumber: 25
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                        lineNumber: 46,
+                        lineNumber: 47,
                         columnNumber: 21
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                    lineNumber: 45,
+                    lineNumber: 46,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1738,7 +1751,7 @@ const Process = ()=>{
                                     children: "El Método"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                    lineNumber: 84,
+                                    lineNumber: 87,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1747,20 +1760,20 @@ const Process = ()=>{
                                         "PROCESO ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                            lineNumber: 88,
+                                            lineNumber: 91,
                                             columnNumber: 37
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         " CLÍNICO."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                    lineNumber: 87,
+                                    lineNumber: 90,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                            lineNumber: 83,
+                            lineNumber: 86,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1779,14 +1792,14 @@ const Process = ()=>{
                                             className: "absolute left-0 top-0 w-[2px] bg-[#bcb5ff]"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                            lineNumber: 101,
+                                            lineNumber: 104,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute left-0 top-0 bottom-0 w-[2px] bg-[#374e86]/5 -z-10"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                            lineNumber: 110,
+                                            lineNumber: 113,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1799,7 +1812,7 @@ const Process = ()=>{
                                                     children: step.menuTitle
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                                    lineNumber: 114,
+                                                    lineNumber: 117,
                                                     columnNumber: 37
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
@@ -1814,41 +1827,41 @@ const Process = ()=>{
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 127,
                                                     columnNumber: 37
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                            lineNumber: 112,
+                                            lineNumber: 115,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                                    lineNumber: 94,
+                                    lineNumber: 97,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0)))
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                            lineNumber: 92,
+                            lineNumber: 95,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-                    lineNumber: 82,
+                    lineNumber: 85,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-            lineNumber: 42,
+            lineNumber: 43,
             columnNumber: 13
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Process.jsx",
-        lineNumber: 40,
+        lineNumber: 41,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -1868,7 +1881,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Pr
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/framer-motion/dist/es/value/use-motion-value.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$spring$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/framer-motion/dist/es/value/use-spring.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/lucide-react/dist/esm/icons/arrow-up-right.js [app-ssr] (ecmascript) <export default as ArrowUpRight>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/next/image.js [app-ssr] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -1940,7 +1955,7 @@ const SelectedCases = ()=>{
                                     "CASOS ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                                        lineNumber: 70,
+                                        lineNumber: 71,
                                         columnNumber: 31
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1948,13 +1963,13 @@ const SelectedCases = ()=>{
                                         children: "SELECTOS."
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                                        lineNumber: 72,
+                                        lineNumber: 73,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                                lineNumber: 69,
+                                lineNumber: 70,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1965,7 +1980,7 @@ const SelectedCases = ()=>{
                                         children: "Portafolio 2025-2026"
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                                        lineNumber: 75,
+                                        lineNumber: 76,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1973,19 +1988,19 @@ const SelectedCases = ()=>{
                                         children: "Resultados reales, no vanidad."
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                                        lineNumber: 78,
+                                        lineNumber: 79,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                                lineNumber: 74,
+                                lineNumber: 75,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                        lineNumber: 68,
+                        lineNumber: 69,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1996,18 +2011,18 @@ const SelectedCases = ()=>{
                                 setActiveProject: setActiveProject
                             }, index, false, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                                lineNumber: 87,
+                                lineNumber: 88,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0)))
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                        lineNumber: 85,
+                        lineNumber: 86,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                lineNumber: 64,
+                lineNumber: 65,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -2033,9 +2048,7 @@ const SelectedCases = ()=>{
                     },
                     className: "fixed top-0 left-0 w-[400px] h-[300px] rounded-2xl overflow-hidden pointer-events-none z-50 hidden lg:block shadow-2xl shadow-[#374e86]/20",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].img, {
-                            src: projects[activeProject].img,
-                            alt: "Project Preview",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                             initial: {
                                 scale: 1.2,
                                 opacity: 0
@@ -2051,17 +2064,28 @@ const SelectedCases = ()=>{
                             transition: {
                                 duration: 0.3
                             },
-                            className: "w-full h-full object-cover"
+                            className: "relative w-full h-full",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                src: projects[activeProject].img,
+                                alt: "Project Preview",
+                                fill: true,
+                                className: "object-cover",
+                                sizes: "400px"
+                            }, void 0, false, {
+                                fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
+                                lineNumber: 118,
+                                columnNumber: 29
+                            }, ("TURBOPACK compile-time value", void 0))
                         }, projects[activeProject].id, false, {
                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                            lineNumber: 109,
+                            lineNumber: 110,
                             columnNumber: 25
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute inset-0 bg-[#374e86]/20 mix-blend-multiply"
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                            lineNumber: 121,
+                            lineNumber: 128,
                             columnNumber: 25
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2071,7 +2095,7 @@ const SelectedCases = ()=>{
                                     className: "w-2 h-2 rounded-full bg-[#e7f1ad] animate-pulse"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                                    lineNumber: 125,
+                                    lineNumber: 132,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2079,30 +2103,30 @@ const SelectedCases = ()=>{
                                     children: projects[activeProject].stat
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                                    lineNumber: 126,
+                                    lineNumber: 133,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                            lineNumber: 123,
+                            lineNumber: 130,
                             columnNumber: 25
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                    lineNumber: 101,
+                    lineNumber: 102,
                     columnNumber: 21
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                lineNumber: 99,
+                lineNumber: 100,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-        lineNumber: 59,
+        lineNumber: 60,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -2139,7 +2163,7 @@ const ProjectRow = ({ project, index, setActiveProject })=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                                lineNumber: 154,
+                                lineNumber: 161,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2147,13 +2171,13 @@ const ProjectRow = ({ project, index, setActiveProject })=>{
                                 children: project.client
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                                lineNumber: 158,
+                                lineNumber: 165,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                        lineNumber: 153,
+                        lineNumber: 160,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2163,12 +2187,12 @@ const ProjectRow = ({ project, index, setActiveProject })=>{
                             children: project.service
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                            lineNumber: 165,
+                            lineNumber: 172,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                        lineNumber: 164,
+                        lineNumber: 171,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2179,7 +2203,7 @@ const ProjectRow = ({ project, index, setActiveProject })=>{
                                 children: project.year
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                                lineNumber: 172,
+                                lineNumber: 179,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2188,37 +2212,37 @@ const ProjectRow = ({ project, index, setActiveProject })=>{
                                     className: "w-5 h-5 text-[#374e86] group-hover:text-white transition-colors"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                                    lineNumber: 175,
+                                    lineNumber: 182,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                                lineNumber: 174,
+                                lineNumber: 181,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                        lineNumber: 171,
+                        lineNumber: 178,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                lineNumber: 150,
+                lineNumber: 157,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 bg-[#F0F4FF] scale-y-0 group-hover:scale-y-100 origin-bottom transition-transform duration-500 ease-out -z-0"
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-                lineNumber: 182,
+                lineNumber: 189,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/SelectedCases.jsx",
-        lineNumber: 141,
+        lineNumber: 148,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -2236,7 +2260,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Pr
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/lucide-react/dist/esm/icons/star.js [app-ssr] (ecmascript) <export default as Star>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$quote$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Quote$3e$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/lucide-react/dist/esm/icons/quote.js [app-ssr] (ecmascript) <export default as Quote>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/next/image.js [app-ssr] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -2288,7 +2314,7 @@ const Testimonials = ()=>{
                         children: "Voces de Autoridad"
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                        lineNumber: 49,
+                        lineNumber: 50,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2297,7 +2323,7 @@ const Testimonials = ()=>{
                             "DOCTORES QUE ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                                lineNumber: 54,
+                                lineNumber: 55,
                                 columnNumber: 34
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2305,19 +2331,19 @@ const Testimonials = ()=>{
                                 children: "CONFÍAN."
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                                lineNumber: 56,
+                                lineNumber: 57,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                        lineNumber: 53,
+                        lineNumber: 54,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                lineNumber: 47,
+                lineNumber: 48,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2327,14 +2353,14 @@ const Testimonials = ()=>{
                         className: "absolute top-0 left-0 w-32 h-full bg-gradient-to-r from-[#F8F9FF] to-transparent z-10"
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                        lineNumber: 64,
+                        lineNumber: 65,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute top-0 right-0 w-32 h-full bg-gradient-to-l from-[#F8F9FF] to-transparent z-10"
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                        lineNumber: 65,
+                        lineNumber: 66,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2347,18 +2373,18 @@ const Testimonials = ()=>{
                                 item: item
                             }, `${item.id}-${index}`, false, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                                lineNumber: 70,
+                                lineNumber: 71,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0)))
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                        lineNumber: 68,
+                        lineNumber: 69,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                lineNumber: 61,
+                lineNumber: 62,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
@@ -2380,13 +2406,13 @@ const Testimonials = ()=>{
             `
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                lineNumber: 77,
+                lineNumber: 78,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-        lineNumber: 44,
+        lineNumber: 45,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0)));
 };
@@ -2403,7 +2429,7 @@ const TestimonialCard = ({ item })=>{
                 className: "absolute top-8 right-8 text-[#374e86]/5 w-12 h-12 rotate-180"
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                lineNumber: 104,
+                lineNumber: 105,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2419,12 +2445,12 @@ const TestimonialCard = ({ item })=>{
                         className: "w-4 h-4 text-[#e7f1ad] fill-current"
                     }, star, false, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                        lineNumber: 109,
+                        lineNumber: 110,
                         columnNumber: 21
                     }, ("TURBOPACK compile-time value", void 0)))
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                lineNumber: 106,
+                lineNumber: 107,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2436,26 +2462,28 @@ const TestimonialCard = ({ item })=>{
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                lineNumber: 114,
+                lineNumber: 115,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex items-center gap-4 mt-auto",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-12 h-12 rounded-full overflow-hidden border border-[#374e86]/10",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        className: "relative w-12 h-12 rounded-full overflow-hidden border border-[#374e86]/10 flex-shrink-0",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             src: item.img,
                             alt: item.name,
-                            className: "w-full h-full object-cover"
+                            fill: true,
+                            className: "object-cover",
+                            sizes: "50px"
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                            lineNumber: 120,
+                            lineNumber: 121,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                        lineNumber: 119,
+                        lineNumber: 120,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2465,7 +2493,7 @@ const TestimonialCard = ({ item })=>{
                                 children: item.name
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                                lineNumber: 123,
+                                lineNumber: 130,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$Proyectos__ReactJS__$2d$__NextJS$2f$mkt$2d$mada$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2478,31 +2506,31 @@ const TestimonialCard = ({ item })=>{
                                         children: item.clinic
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                                        lineNumber: 126,
+                                        lineNumber: 133,
                                         columnNumber: 39
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                                lineNumber: 125,
+                                lineNumber: 132,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                        lineNumber: 122,
+                        lineNumber: 129,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-                lineNumber: 118,
+                lineNumber: 119,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/src/components/sections/Testimonials.jsx",
-        lineNumber: 99,
+        lineNumber: 100,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };

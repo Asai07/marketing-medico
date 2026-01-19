@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/OneDrive_Escritorio_Proyectos ReactJS - NextJS_mkt-mada_51ae2d72._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__09b42f7e._.js")
+R.c("server/chunks/ssr/ed491_next_dist_esm_build_templates_app-page_77f17433.js")
+R.c("server/chunks/ssr/[root-of-the-server]__a1ef307b._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__7e95a382._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__721d9d2b._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__bc0676eb._.js")
+R.c("server/chunks/ssr/13466_Escritorio_Proyectos ReactJS - NextJS_mkt-mada_src_app_not-found_jsx_b7cc4cb2._.js")
+R.c("server/chunks/ssr/ed491_next_dist_client_components_98a0c1ac._.js")
+R.c("server/chunks/ssr/c3ca7_mkt-mada__next-internal_server_app__not-found_page_actions_5319a86b.js")
+R.m(52513)
+module.exports=R.m(52513).exports

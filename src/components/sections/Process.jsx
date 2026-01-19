@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 const steps = [
     {
@@ -53,10 +54,12 @@ const Process = () => {
                             className="w-full h-full flex flex-col justify-center"
                         >
                             <div className="relative w-full h-[280px] md:h-[320px] overflow-hidden rounded-2xl bg-[#F8F9FF] shadow-lg shadow-[#374e86]/5 mb-8">
-                                <img
+                                <Image
                                     src={steps[activeStep].img}
                                     alt={steps[activeStep].title}
-                                    className="w-full h-full object-cover"
+                                    fill
+                                    className="object-cover"
+                                    sizes="(max-width: 768px) 100vw, 600px"
                                 />
                             </div>
 

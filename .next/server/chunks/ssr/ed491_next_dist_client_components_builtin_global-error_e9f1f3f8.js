@@ -1,0 +1,3 @@
+module.exports=[48257,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(40305);a.n(d("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},37049,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(40305);a.n(d("[project]/OneDrive/Escritorio/Proyectos ReactJS - NextJS/mkt-mada/node_modules/next/dist/client/components/builtin/global-error.js"))},64481,a=>{"use strict";a.i(48257);var b=a.i(37049);a.n(b)}];
+
+//# sourceMappingURL=ed491_next_dist_client_components_builtin_global-error_e9f1f3f8.js.map

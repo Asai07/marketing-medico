@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 
 // Componente interno para los Blobs "Vivos"
 const LivingBlobs = () => {
@@ -126,10 +127,13 @@ const Hero = () => {
                         style={{ y: yParallax }}
                         className="relative w-full h-full rounded-t-[10rem] rounded-b-[2rem] overflow-hidden shadow-2xl shadow-[#bcb5ff]/20 z-10"
                     >
-                        <img
+                        <Image
                             src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2068&auto=format&fit=crop"
                             alt="Doctora Estética"
-                            className="w-full h-full object-cover"
+                            fill // Ocupa todo el contenedor padre
+                            priority // ¡CRÍTICO! Carga inmediata
+                            className="object-cover"
+                            sizes="(max-width: 768px) 100vw, 50vw" // Ayuda a descargar la versión ligera en móvil
                         />
                         <div className="absolute inset-0 bg-[#bcb5ff]/10 mix-blend-multiply"></div>
                     </motion.div>

@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Star, Quote } from 'lucide-react';
+import Image from 'next/image';
 
 const testimonials = [
     {
@@ -116,8 +117,14 @@ const TestimonialCard = ({ item }) => {
             </p>
 
             <div className="flex items-center gap-4 mt-auto">
-                <div className="w-12 h-12 rounded-full overflow-hidden border border-[#374e86]/10">
-                    <img src={item.img} alt={item.name} className="w-full h-full object-cover" />
+                <div className="relative w-12 h-12 rounded-full overflow-hidden border border-[#374e86]/10 flex-shrink-0">
+                    <Image
+                        src={item.img}
+                        alt={item.name}
+                        fill
+                        className="object-cover"
+                        sizes="50px" // Solo descarga una versión diminuta
+                    />
                 </div>
                 <div>
                     <h4 className="font-bold font-sans-body text-[#374e86] text-sm">{item.name}</h4>
