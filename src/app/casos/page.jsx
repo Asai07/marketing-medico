@@ -159,10 +159,6 @@ const CaseStudyPage = () => {
                                 <p className="text-sm text-[#374e86]/50 uppercase tracking-widest font-bold">Cirujano Especialista</p>
                             </div>
                         </div>
-                        <div className="text-left">
-                            <p className="font-bold text-[#374e86] font-sans-body">Dr. Pedro</p>
-                            <p className="text-sm text-[#374e86]/50 uppercase tracking-widest font-bold">Cirujano Especialista</p>
-                        </div>
                     </div>
                 </div>
             </section>
