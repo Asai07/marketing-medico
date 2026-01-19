@@ -4,64 +4,65 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 
-// Componente interno para los Blobs "Vivos"
 const LivingBlobs = () => {
-    // Configuración de movimiento aleatorio
     const blobVariants = (index) => ({
         animate: {
             x: [0, Math.random() * 400 - 200, Math.random() * -400 + 200, 0],
             y: [0, Math.random() * 300 - 150, Math.random() * -300 + 150, 0],
-            scale: [1, 1.4, 0.8, 1.2, 1],
+            scale: [1, 1.2, 0.9, 1.1, 1],
             rotate: [0, 180, 360, 0],
             transition: {
-                duration: 15 + Math.random() * 10, // Duración aleatoria entre 15s y 25s
+                duration: 20 + Math.random() * 10,
                 repeat: Infinity,
                 repeatType: "mirror",
-                ease: "easeInOut",
+                ease: "linear",
             },
         },
     });
 
     return (
         <div className="absolute inset-0 overflow-hidden pointer-events-none bg-[#F8F9FF]">
-            {/* Filtro de ruido sutil para textura */}
+
+            {/* OPTIMIZACIÓN 1: Ruido sin mix-blend-mode complejo */}
             <div
-                className="absolute inset-0 opacity-[0.05] mix-blend-overlay"
+                className="absolute inset-0 opacity-[0.04] z-20" // Quitamos mix-blend-overlay
                 style={{
                     backgroundImage: `url("https://www.transparenttextures.com/patterns/noise-lines.png")`,
                     backgroundRepeat: 'repeat'
                 }}
             ></div>
-            {/* Blob 1: Violeta Principal (#bcb5ff) */}
+
+            {/* OPTIMIZACIÓN 2: Blobs con 'will-change-transform', 'transform-gpu' y blur reducido */}
+
+            {/* Blob 1: Violeta */}
             <motion.div
                 variants={blobVariants(1)}
                 animate="animate"
-                className="absolute top-[10%] left-[20%] w-[600px] h-[600px] rounded-full bg-[#bcb5ff]/40 blur-[100px] mix-blend-multiply"
+                className="absolute top-[10%] left-[20%] w-[500px] h-[500px] rounded-full bg-[#bcb5ff]/40 blur-[60px] mix-blend-multiply will-change-transform transform-gpu"
             />
 
-            {/* Blob 2: Azul Cielo (#95b2ed) - Se mueve opuesto */}
+            {/* Blob 2: Azul Cielo */}
             <motion.div
                 variants={blobVariants(2)}
                 animate="animate"
-                className="absolute top-[40%] right-[10%] w-[500px] h-[500px] rounded-full bg-[#95b2ed]/40 blur-[90px] mix-blend-multiply"
+                className="absolute top-[40%] right-[10%] w-[400px] h-[400px] rounded-full bg-[#95b2ed]/40 blur-[50px] mix-blend-multiply will-change-transform transform-gpu"
             />
 
-            {/* Blob 3: Lima Eléctrico (#e7f1ad) - El acento que da vida */}
+            {/* Blob 3: Lima Eléctrico */}
             <motion.div
                 variants={blobVariants(3)}
                 animate="animate"
-                className="absolute bottom-[10%] left-[30%] w-[400px] h-[400px] rounded-full bg-[#e7f1ad]/50 blur-[80px] mix-blend-multiply"
+                className="absolute bottom-[10%] left-[30%] w-[350px] h-[350px] rounded-full bg-[#e7f1ad]/50 blur-[50px] mix-blend-multiply will-change-transform transform-gpu"
             />
 
-            {/* Blob 4: Azul Profundo (#374e86) - Pequeño y rápido para contraste */}
+            {/* Blob 4: Azul Profundo (Reducido) */}
             <motion.div
                 animate={{
-                    x: [0, 100, -100, 0],
-                    y: [0, -100, 50, 0],
-                    scale: [1, 1.5, 1],
+                    x: [0, 50, -50, 0],
+                    y: [0, -50, 30, 0],
                 }}
-                transition={{ duration: 25, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
-                className="absolute top-[30%] left-[50%] w-[300px] h-[300px] rounded-full bg-[#374e86]/10 blur-[60px] mix-blend-multiply"
+                transition={{ duration: 30, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
+                className="absolute top-[30%] left-[50%] w-[250px] h-[250px] rounded-full bg-[#374e86]/10 blur-[40px] mix-blend-multiply will-change-transform transform-gpu"
             />
         </div>
     );
