@@ -1,69 +1,159 @@
 'use client';
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Plus, Minus } from 'lucide-react';
+import { Plus, Minus, Sparkles } from 'lucide-react';
 
+/* ---------------- DATA REAL (Desde tu imagen) ---------------- */
 const faqs = [
     {
-        question: "¿Trabajan con cualquier especialidad médica?",
-        answer: "Nos enfocamos en especialidades de alto valor (Cirugía Plástica, Dermatología, Odontología, Traumatología, Ginecología, etc.). Si tu consulta depende de pacientes privados que valoran la calidad, somos para ti."
+        id: 1,
+        question: "¿Trabajan con todo tipo de profesionales?",
+        answer: "No. Trabajamos con profesionales de la salud y clínicas que ya tienen consulta activa y buscan crecer con mayor orden, claridad y criterio en sus decisiones."
     },
     {
-        question: "¿En cuánto tiempo veré resultados?",
-        answer: "Nuestro sistema está diseñado para generar tracción desde el primer mes (Lanzamiento). Sin embargo, la optimización de costos y la estabilidad total de la agenda se consolida típicamente en el mes 2 y 3."
+        id: 2,
+        question: "¿Ofrecen manejo de redes sociales o creación de contenido?",
+        answer: "No ofrecemos manejo básico de redes ni contenido sin una estrategia detrás. Nuestro enfoque está en decisiones estratégicas que impacten directamente en la agenda y el crecimiento del negocio, no en publicar por publicar."
     },
     {
+        id: 3,
+        question: "¿Prometen resultados específicos?",
+        answer: "No. Cada consulta es distinta y los resultados dependen del contexto, la constancia y las decisiones que se tomen. Trabajamos con procesos estratégicos, no con promesas genéricas."
+    },
+    {
+        id: 4,
+        question: "¿Cuánto tiempo toma ver cambios?",
+        answer: "Depende del punto de partida y del nivel de involucramiento. No trabajamos con soluciones inmediatas, sino con crecimiento sostenible a mediano y largo plazo."
+    },
+    {
+        id: 5,
+        question: "¿Cuál es la inversión?",
+        answer: "La inversión se define según el contexto de cada consulta y el tipo de acompañamiento que realmente necesita. Trabajamos con profesionales que, independientemente de su tamaño actual, entienden el crecimiento como una inversión estratégica y están dispuestos a construir con constancia."
+    },
+    {
+        id: 6,
         question: "¿Tengo que grabar videos bailando en TikTok?",
-        answer: "Absolutamente no. Tu autoridad médica es lo primero. Diseñamos contenido educativo y profesional que eleva tu reputación, sin tendencias ridículas que dañen tu imagen."
+        answer: "Absolutamente no. No trabajamos desde la viralidad ni desde formatos que no se alineen con tu perfil profesional. La estrategia se adapta a lo que tenga sentido para tu consulta, no a lo que esté de moda."
     },
     {
-        question: "¿Qué incluye el servicio mensual?",
-        answer: "Todo lo necesario para crecer: Gestión de campañas (Meta/Google Ads), diseño de Landing Pages, guiones de venta para tu recepción, edición de video profesional y reportes de ROI auditables."
-    },
-    {
-        question: "¿Hay plazos forzosos?",
-        answer: "Trabajamos con un esquema de partnership de 3 meses iniciales para garantizar la maduración de las campañas. Después, es mensual. Queremos que te quedes por los resultados, no por un contrato."
+        id: 7,
+        question: "¿Cómo es el primer paso para trabajar juntos?",
+        answer: "El primer paso es una evaluación breve para entender tu consulta, tu momento actual y definir si este enfoque es el adecuado para ti."
     }
 ];
 
-const FAQ = () => {
-    const [activeIndex, setActiveIndex] = useState(null);
+/* ---------------- COMPONENTE INDIVIDUAL DE FAQ ---------------- */
+const FAQItem = ({ data, isOpen, onClick }) => {
+    return (
+        <motion.div
+            initial={false}
+            className={`border-b border-[#374E86]/10 ${isOpen ? 'bg-[#374E86]/[0.02]' : ''} transition-colors duration-300`}
+        >
+            {/* --- HEADER (PREGUNTA) CLICKABLE --- */}
+            <button
+                onClick={onClick}
+                className="w-full py-6 md:py-9 flex justify-between items-start gap-6 text-left group relative overflow-hidden"
+            >
+                {/* Título Grande */}
+                <h3 className={`font-serif-display text-xl md:text-3xl leading-snug transition-colors duration-300 pr-8
+          ${isOpen ? 'text-[#374E86]' : 'text-[#374E86] group-hover:text-[#BCB5FF]'}`}>
+                    {data.question}
+                </h3>
 
-    const toggleFAQ = (index) => {
-        setActiveIndex(activeIndex === index ? null : index);
+                {/* Icono Animado */}
+                <div className="relative shrink-0 mt-1">
+                    <motion.div
+                        initial={false}
+                        animate={{ rotate: isOpen ? 90 : 0, opacity: isOpen ? 0 : 1 }}
+                        transition={{ duration: 0.3 }}
+                        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[#374E86]/60 group-hover:text-[#BCB5FF] transition-colors"
+                    >
+                        <Plus size={24} />
+                    </motion.div>
+                    <motion.div
+                        initial={false}
+                        animate={{ rotate: isOpen ? 180 : 90, opacity: isOpen ? 1 : 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[#E6F2A2]"
+                    >
+                        <Minus size={24} />
+                    </motion.div>
+                    {/* Espacio invisible para evitar colapso */}
+                    <div className="w-6 h-6 opacity-0"><Plus size={24} /></div>
+                </div>
+            </button>
+
+            {/* --- BODY (RESPUESTA) ANIMADO --- */}
+            <AnimatePresence initial={false}>
+                {isOpen && (
+                    <motion.div
+                        key="content"
+                        initial="collapsed"
+                        animate="open"
+                        exit="collapsed"
+                        variants={{
+                            open: { opacity: 1, height: "auto", marginBottom: 32 },
+                            collapsed: { opacity: 0, height: 0, marginBottom: 0 }
+                        }}
+                        transition={{ type: "spring", stiffness: 200, damping: 25 }}
+                        className="overflow-hidden"
+                    >
+                        <div className="font-sans-body text-base md:text-lg text-[#374E86]/80 leading-relaxed max-w-3xl pl-4 border-l-2 border-[#E6F2A2] ml-1">
+                            <p>{data.answer}</p>
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+        </motion.div>
+    );
+};
+
+/* ---------------- SECCIÓN PRINCIPAL ---------------- */
+const FAQSection = () => {
+    const [openIndex, setOpenIndex] = useState(0);
+
+    const handleItemClick = (index) => {
+        setOpenIndex(openIndex === index ? null : index);
     };
 
     return (
-        // CAMBIO: Fondo claro #F8F9FF y borde azul
-        <section className="relative bg-[#F8F9FF] py-24 md:py-32 px-6 md:px-12 border-t border-[#374e86]/5">
-            <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
+        <section className="relative bg-[#F8F9FC] py-24 md:py-36 px-6 md:px-12 overflow-hidden">
 
-                {/* COLUMNA IZQUIERDA: Título Sticky */}
-                <div className="lg:col-span-4">
-                    <div className="sticky top-32">
-                        {/* CAMBIO: Subtítulo Violeta */}
-                        <span className="font-sans-body text-xs font-bold uppercase tracking-widest text-[#bcb5ff] mb-4 block">
-                            Dudas Comunes
+            {/* Background Decor */}
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-20 bg-gradient-to-b from-white to-transparent pointer-events-none" />
+            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[#BCB5FF]/5 rounded-full blur-[120px] pointer-events-none" />
+
+            <div className="max-w-[1200px] mx-auto relative z-10">
+
+                {/* --- HEADER --- */}
+                <div className="flex flex-col md:flex-row gap-10 md:items-end justify-between mb-20 md:mb-24">
+                    <div className="max-w-2xl">
+                        {/* 2. PILL VERDE LIMA */}
+                        <span className="inline-block py-2 px-4 rounded-full bg-[#E6F2A2] text-[#374E86] font-sans-body text-xs font-bold uppercase tracking-widest mb-8">
+                            Preguntas Frecuentes
                         </span>
-                        <h2 className="font-massive font-semibold text-5xl md:text-6xl text-[#374e86] leading-[0.95] mb-6">
-                            PREGUNTAS <br />
-                            {/* CAMBIO: Acento Violeta */}
-                            <span className="text-[#bcb5ff]">FRECUENTES.</span>
+
+                        {/* 1. TÍTULO CORREGIDO (Salto de línea ajustado) */}
+                        <h2 className="font-serif-display text-5xl md:text-7xl text-[#374E86] leading-[1.05]">
+                            Resolver dudas <br className="hidden md:block" />
+                            antes <span className="italic text-[#BCB5FF]">de avanzar.</span>
                         </h2>
-                        <p className="font-sans-body text-[#374e86]/60 text-lg leading-relaxed max-w-sm">
-                            Resolvemos las inquietudes principales antes de nuestra primera llamada. Transparencia total.
-                        </p>
+                    </div>
+
+                    <div className="flex items-center gap-2 text-[#374E86]/60 font-bold text-xs uppercase tracking-widest pb-2">
+                        <Sparkles size={14} className="text-[#E6F2A2]" />
+                        <span>Transparencia Radical</span>
                     </div>
                 </div>
 
-                {/* COLUMNA DERECHA: Acordeón */}
-                <div className="lg:col-span-8 flex flex-col">
+                {/* --- LISTA --- */}
+                <div className="border-t border-[#374E86]/10">
                     {faqs.map((faq, index) => (
-                        <AccordionItem
-                            key={index}
-                            faq={faq}
-                            isOpen={activeIndex === index}
-                            onClick={() => toggleFAQ(index)}
+                        <FAQItem
+                            key={faq.id}
+                            data={faq}
+                            isOpen={openIndex === index}
+                            onClick={() => handleItemClick(index)}
                         />
                     ))}
                 </div>
@@ -73,47 +163,4 @@ const FAQ = () => {
     );
 };
 
-const AccordionItem = ({ faq, isOpen, onClick }) => {
-    return (
-        // CAMBIO: Borde inferior azul suave
-        <div
-            onClick={onClick}
-            className="border-b border-[#374e86]/10 py-8 cursor-pointer group"
-        >
-            <div className="flex justify-between items-center gap-6">
-                {/* CAMBIO: Texto activo Violeta */}
-                <h3 className={`font-serif-display text-2xl md:text-3xl transition-colors duration-300 ${isOpen ? 'text-[#bcb5ff]' : 'text-[#374e86] group-hover:text-[#374e86]/70'}`}>
-                    {faq.question}
-                </h3>
-
-                {/* CAMBIO: Botón activo Violeta */}
-                <div className={`relative flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full border transition-all duration-300 ${isOpen ? 'border-[#bcb5ff] bg-[#bcb5ff] text-white' : 'border-[#374e86]/20 text-[#374e86]'}`}>
-                    <motion.div
-                        animate={{ rotate: isOpen ? 180 : 0 }}
-                        transition={{ duration: 0.3 }}
-                    >
-                        {isOpen ? <Minus size={16} /> : <Plus size={16} />}
-                    </motion.div>
-                </div>
-            </div>
-
-            <AnimatePresence>
-                {isOpen && (
-                    <motion.div
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: "auto", opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.3, ease: "easeInOut" }}
-                        className="overflow-hidden"
-                    >
-                        <p className="pt-6 pb-2 font-sans-body text-lg text-[#374e86]/70 leading-relaxed max-w-2xl">
-                            {faq.answer}
-                        </p>
-                    </motion.div>
-                )}
-            </AnimatePresence>
-        </div>
-    );
-};
-
-export default FAQ;
+export default FAQSection;

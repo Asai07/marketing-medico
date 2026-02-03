@@ -1,10 +1,11 @@
 // IMPORTANTE: NO importes Navbar ni Footer aquí.
 import Hero from '../components/sections/Hero';
-import Services from '../components/sections/Services';
-import Metrics from '../components/sections/Metrics';
-import Process from '../components/sections/Process';
-import SelectedCases from '../components/sections/SelectedCases';
-import Testimonials from '../components/sections/Testimonials';
+import IsThisForYou from '../components/sections/IsThisForYou';
+import OurApproach from '../components/sections/OurApproach.jsx';
+import TheRealProblem from '../components/sections/TheRealProblem';
+import HowWeHelp from '../components/sections/HowWeHelp';
+import SocialProof from '../components/sections/SocialProof';
+import FinalCTA from '../components/sections/FinalCTA';
 import FAQ from '../components/sections/FAQ';
 
 export default function Home() {
@@ -12,11 +13,12 @@ export default function Home() {
         <main className="w-full relative min-h-screen">
             {/* Sin Navbar ni CustomCursor aquí, ya están en el layout */}
             <Hero />
-            <Services />
-            <Process />
-            <Metrics />
-            <SelectedCases />
-            <Testimonials />
+            <IsThisForYou />
+            <TheRealProblem />
+            <OurApproach />
+            <HowWeHelp />
+            <SocialProof />
+            <FinalCTA />
             <FAQ />
             {/* Sin Footer aquí */}
         </main>
