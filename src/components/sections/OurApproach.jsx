@@ -38,7 +38,7 @@ const stepsData = [
     {
         id: 'CTA',
         isCTA: true,
-        bg: 'bg-[#374E86]',
+        bg: 'bg-[#bcb5ff]',
         text: 'text-white',
         accent: 'text-[#BCB5FF]',
     }

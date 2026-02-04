@@ -1,135 +1,142 @@
 'use client';
-
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
-// 1. IMPORTAMOS usePathname
-import { usePathname } from 'next/navigation';
-import { motion } from 'framer-motion';
-import { ArrowUpRight, Instagram, Linkedin, Mail, MapPin } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { ArrowUpRight, Copy, Check } from 'lucide-react';
 
 const Footer = () => {
-    // 2. OBTENEMOS LA RUTA
-    const pathname = usePathname();
+    const [copied, setCopied] = useState(false);
 
-    // 3. SI ESTAMOS EN '/links', NO RENDERIZAMOS NADA
-    if (pathname === '/links') return null;
+    const handleCopy = () => {
+        navigator.clipboard.writeText('hola@somosmada.com');
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+    };
 
     return (
-        <footer className="bg-[#374e86] text-[#F8F9FF] pt-24 pb-12 px-6 md:px-12 relative overflow-hidden">
+        <footer className="bg-[#374E86] text-white px-6 md:px-12 pt-20 pb-10 relative overflow-hidden">
 
-            {/* DECORACIÓN: Luz ambiental Violeta */}
-            <div className="absolute top-[-20%] right-[-10%] w-[600px] h-[600px] bg-[#bcb5ff]/10 rounded-full blur-[120px] pointer-events-none" />
+            {/* Ruido de fondo sutil */}
+            <div className="absolute inset-0 opacity-[0.03]"
+                style={{ backgroundImage: 'url("https://grainy-gradients.vercel.app/noise.svg")' }}
+            />
 
-            <div className="max-w-[1400px] mx-auto relative z-10 flex flex-col justify-between min-h-[60vh]">
+            <div className="max-w-[1400px] mx-auto relative z-10">
 
-                {/* 1. SECCIÓN DE CONVERSIÓN (CTA) */}
-                <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-12 mb-24 border-b border-white/10 pb-16">
-                    <div className="max-w-3xl">
-                        <h2 className="font-massive font-semibold text-6xl md:text-8xl lg:text-9xl leading-[0.85] tracking-tighter mb-8 text-white">
-                            ¿LISTO PARA <br />
-                            <span className="text-[#e7f1ad]">ESCALAR?</span>
-                        </h2>
-                        <p className="font-sans-body text-lg md:text-xl text-white/60 max-w-lg leading-relaxed">
-                            Deja de depender de referidos. Construye un sistema predecible de pacientes calificados hoy mismo.
-                        </p>
-                    </div>
+                {/* --- 1. TOP SECTION (Logo & Socials) --- */}
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 md:mb-20 gap-8">
 
-                    <Link href="/contacto">
-                        <motion.button
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
-                            className="group relative px-8 py-6 bg-[#F8F9FF] text-[#374e86] rounded-full flex items-center gap-4 font-bold uppercase tracking-widest text-sm hover:bg-[#bcb5ff] transition-colors duration-300 shadow-[0_0_20px_rgba(255,255,255,0.1)]"
-                        >
-                            Agendar Auditoría
-                            <div className="w-8 h-8 bg-[#374e86] rounded-full flex items-center justify-center text-white group-hover:bg-white group-hover:text-[#374e86] transition-colors">
-                                <ArrowUpRight size={16} />
-                            </div>
-                        </motion.button>
+                    {/* LOGO */}
+                    <Link href="/" className="flex items-center gap-1 group">
+                        <span className="font-massive text-4xl md:text-5xl font-bold tracking-tight text-white">
+                            MADA
+                        </span>
+                        <span className="w-3 h-3 rounded-full bg-[#E6F2A2] mt-3 group-hover:scale-150 transition-transform duration-300"></span>
                     </Link>
+
+                    {/* Redes Sociales */}
+                    <div className="flex gap-6 md:gap-10">
+                        {['Instagram', 'LinkedIn', 'WhatsApp'].map((social, i) => (
+                            <a
+                                key={i}
+                                href="#"
+                                className="font-sans-body text-sm font-bold uppercase tracking-widest text-white/60 hover:text-[#BCB5FF] transition-colors flex items-center gap-1 group"
+                            >
+                                {social}
+                                <ArrowUpRight size={14} className="group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
+                            </a>
+                        ))}
+                    </div>
                 </div>
 
-                {/* 2. GRID DE ENLACES E INFO */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8 mb-24">
+                {/* --- 2. MIDDLE SECTION (Interactive Email) --- */}
+                <div className="mb-20">
+                    <motion.div
+                        onClick={handleCopy}
+                        whileHover={{ scale: 1.01 }}
+                        whileTap={{ scale: 0.99 }}
+                        className="group relative w-full border-t border-b border-white/20 py-16 md:py-24 cursor-pointer overflow-hidden"
+                    >
+                        {/* Fondo Hover animado */}
+                        <div className="absolute inset-0 bg-[#E6F2A2] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-[0.22,1,0.36,1]" />
 
-                    {/* Brand Info */}
-                    <div className="md:col-span-2 flex flex-col justify-between">
-                        <div>
-                            <Link href="/" className="font-massive text-3xl font-bold mb-6 block text-[#e7f1ad]">
-                                MADA.
-                            </Link>
-                            <p className="text-white/40 text-sm max-w-xs font-sans-body mb-8 leading-relaxed">
-                                Growth Partner para clínicas y especialistas médicos que buscan excelencia digital y resultados auditables.
-                            </p>
+                        <div className="relative z-10 flex flex-col md:flex-row justify-between items-center gap-6 px-4">
+
+                            {/* Texto */}
+                            <div className="flex flex-col items-center md:items-start">
+                                <span className="font-sans-body text-xs font-bold uppercase tracking-widest text-[#BCB5FF] group-hover:text-[#374E86] mb-2 transition-colors">
+                                    ¿Tienes un proyecto?
+                                </span>
+                                <h2 className="font-serif-display text-4xl md:text-7xl lg:text-8xl group-hover:text-[#374E86] transition-colors duration-300 text-center md:text-left">
+                                    hola@somosmada.com
+                                </h2>
+                            </div>
+
+                            {/* Botón Acción */}
+                            <div className="w-16 h-16 rounded-full border border-white/30 group-hover:border-[#374E86]/30 flex items-center justify-center transition-colors">
+                                <AnimatePresence mode='wait'>
+                                    {copied ? (
+                                        <motion.div
+                                            key="check"
+                                            initial={{ scale: 0 }}
+                                            animate={{ scale: 1 }}
+                                            exit={{ scale: 0 }}
+                                        >
+                                            <Check size={24} className="text-[#374E86]" />
+                                        </motion.div>
+                                    ) : (
+                                        <motion.div
+                                            key="copy"
+                                            initial={{ scale: 0 }}
+                                            animate={{ scale: 1 }}
+                                            exit={{ scale: 0 }}
+                                        >
+                                            <Copy size={24} className="text-white group-hover:text-[#374E86] transition-colors" />
+                                        </motion.div>
+                                    )}
+                                </AnimatePresence>
+                            </div>
+
                         </div>
-
-                        <div className="flex gap-4">
-                            <SocialButton icon={Instagram} href="#" />
-                            <SocialButton icon={Linkedin} href="#" />
-                            <SocialButton icon={Mail} href="mailto:hola@somosmada.com" />
-                        </div>
-                    </div>
-
-                    {/* Sitemap */}
-                    <div>
-                        <h4 className="font-sans-body text-xs font-bold uppercase tracking-widest text-[#bcb5ff] mb-6">Explorar</h4>
-                        <ul className="space-y-4 font-sans-body text-white/70 text-sm">
-                            <li><Link href="/soluciones" className="hover:text-[#e7f1ad] transition-colors">Soluciones</Link></li>
-                            <li><Link href="/sobre-nosotros" className="hover:text-[#e7f1ad] transition-colors">Nosotros</Link></li>
-                            <li><Link href="/casos" className="hover:text-[#e7f1ad] transition-colors">Casos de Éxito</Link></li>
-                        </ul>
-                    </div>
-
-                    {/* Contacto / Legal */}
-                    <div>
-                        <h4 className="font-sans-body text-xs font-bold uppercase tracking-widest text-[#bcb5ff] mb-6">Contacto</h4>
-                        <ul className="space-y-4 font-sans-body text-white/70 text-sm mb-8">
-                            <li className="flex items-start gap-3">
-                                <MapPin size={16} className="mt-1 text-[#bcb5ff]" />
-                                <span>Monterrey, N.L.<br />Disponible Globalmente.</span>
-                            </li>
-                            <li className="flex items-center gap-3">
-                                <Mail size={16} className="text-[#bcb5ff]" />
-                                <a href="mailto:hola@somosmada.com" className="hover:text-white transition-colors">hola@somosmada.com</a>
-                            </li>
-                        </ul>
-
-                        <h4 className="font-sans-body text-xs font-bold uppercase tracking-widest text-[#bcb5ff] mb-4">Legal</h4>
-                        <ul className="space-y-2 font-sans-body text-white/40 text-xs">
-                            <li>
-                                <Link href="/politica-de-privacidad" className="hover:text-white transition-colors">
-                                    Política de Privacidad
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/terminos-y-condiciones" className="hover:text-white transition-colors">
-                                    Términos y Condiciones
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
+                    </motion.div>
                 </div>
 
-                <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 relative z-20">
-                    <p className="text-[10px] md:text-xs text-white/30 uppercase tracking-widest font-sans-body">
-                        &copy; {new Date().getFullYear()} Mada Marketing Médico. Todos los derechos reservados.
-                    </p>
-                </div>
+                {/* --- 3. BOTTOM SECTION (Reordenado) --- */}
+                <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-8 text-white/40 text-[10px] md:text-xs font-sans-body uppercase tracking-widest font-medium">
 
-                {/* MARCA DE AGUA GIGANTE */}
-                <div className="absolute bottom-[-2%] left-1/2 -translate-x-1/2 w-full text-center pointer-events-none select-none opacity-[0.03]">
-                    <h1 className="font-massive text-[22vw] leading-none text-white tracking-tighter">MADA</h1>
-                </div>
+                    {/* IZQUIERDA: Copyright */}
+                    <p>&copy; {new Date().getFullYear()} MADA Marketing Médico.</p>
 
+                    {/* CENTRO: Legal */}
+                    <div className="flex gap-8">
+                        <Link href="/politica" className="hover:text-white transition-colors">
+                            Política de Privacidad
+                        </Link>
+                        <Link href="/terminos" className="hover:text-white transition-colors">
+                            Términos y Condiciones
+                        </Link>
+                    </div>
+
+                    {/* DERECHA: Ubicación + Crédito */}
+                    <div className="flex items-center gap-4">
+                        <p className="hidden md:block">Monterrey, MX.</p>
+
+                        {/* Separador */}
+                        <span className="hidden md:block w-1 h-1 rounded-full bg-white/20" />
+
+                        <a
+                            href="https://somosmada.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-[#E6F2A2] transition-colors duration-300"
+                        >
+                            Diseñado por: somosmada.com
+                        </a>
+                    </div>
+                </div>
             </div>
         </footer>
     );
 };
-
-// Botón Social
-const SocialButton = ({ icon: Icon, href }) => (
-    <a href={href} className="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center text-white/60 hover:bg-[#bcb5ff] hover:border-[#bcb5ff] hover:text-[#374e86] transition-all duration-300">
-        <Icon size={18} />
-    </a>
-);
 
 export default Footer;

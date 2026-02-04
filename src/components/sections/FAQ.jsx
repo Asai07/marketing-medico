@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus, Sparkles } from 'lucide-react';
 
-/* ---------------- DATA REAL (Desde tu imagen) ---------------- */
+/* ---------------- DATA REAL ---------------- */
 const faqs = [
     {
         id: 1,
@@ -49,19 +49,21 @@ const FAQItem = ({ data, isOpen, onClick }) => {
             initial={false}
             className={`border-b border-[#374E86]/10 ${isOpen ? 'bg-[#374E86]/[0.02]' : ''} transition-colors duration-300`}
         >
-            {/* --- HEADER (PREGUNTA) CLICKABLE --- */}
+            {/* --- HEADER (PREGUNTA) --- */}
+            {/* CORRECCIÓN: Eliminé 'overflow-hidden' de aquí para que el icono no se corte al girar */}
             <button
                 onClick={onClick}
-                className="w-full py-6 md:py-9 flex justify-between items-start gap-6 text-left group relative overflow-hidden"
+                className="w-full py-6 md:py-9 flex justify-between items-start gap-6 text-left group relative"
             >
-                {/* Título Grande */}
-                <h3 className={`font-serif-display text-xl md:text-3xl leading-snug transition-colors duration-300 pr-8
+                {/* Título */}
+                <h3 className={`font-serif-display text-xl md:text-3xl leading-snug transition-colors duration-300 pr-4
           ${isOpen ? 'text-[#374E86]' : 'text-[#374E86] group-hover:text-[#BCB5FF]'}`}>
                     {data.question}
                 </h3>
 
                 {/* Icono Animado */}
-                <div className="relative shrink-0 mt-1">
+                {/* CORRECCIÓN: Añadí 'p-1' (padding) extra por seguridad */}
+                <div className="relative shrink-0 mt-1 p-1">
                     <motion.div
                         initial={false}
                         animate={{ rotate: isOpen ? 90 : 0, opacity: isOpen ? 0 : 1 }}
@@ -70,6 +72,7 @@ const FAQItem = ({ data, isOpen, onClick }) => {
                     >
                         <Plus size={24} />
                     </motion.div>
+
                     <motion.div
                         initial={false}
                         animate={{ rotate: isOpen ? 180 : 90, opacity: isOpen ? 1 : 0 }}
@@ -78,12 +81,13 @@ const FAQItem = ({ data, isOpen, onClick }) => {
                     >
                         <Minus size={24} />
                     </motion.div>
-                    {/* Espacio invisible para evitar colapso */}
-                    <div className="w-6 h-6 opacity-0"><Plus size={24} /></div>
+
+                    {/* Espacio invisible para mantener dimensiones */}
+                    <div className="w-6 h-6 opacity-0 pointer-events-none"><Plus size={24} /></div>
                 </div>
             </button>
 
-            {/* --- BODY (RESPUESTA) ANIMADO --- */}
+            {/* --- BODY (RESPUESTA) --- */}
             <AnimatePresence initial={false}>
                 {isOpen && (
                     <motion.div
@@ -128,12 +132,10 @@ const FAQSection = () => {
                 {/* --- HEADER --- */}
                 <div className="flex flex-col md:flex-row gap-10 md:items-end justify-between mb-20 md:mb-24">
                     <div className="max-w-2xl">
-                        {/* 2. PILL VERDE LIMA */}
                         <span className="inline-block py-2 px-4 rounded-full bg-[#E6F2A2] text-[#374E86] font-sans-body text-xs font-bold uppercase tracking-widest mb-8">
                             Preguntas Frecuentes
                         </span>
 
-                        {/* 1. TÍTULO CORREGIDO (Salto de línea ajustado) */}
                         <h2 className="font-serif-display text-5xl md:text-7xl text-[#374E86] leading-[1.05]">
                             Resolver dudas <br className="hidden md:block" />
                             antes <span className="italic text-[#BCB5FF]">de avanzar.</span>
